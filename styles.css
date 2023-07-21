@@ -33,6 +33,13 @@ margin: 0;
 }
 
 
+
+
+
+
+
+
+
 .section1{
     display:flex;
     flex-direction: row;
@@ -64,6 +71,7 @@ margin: 0;
     color: #F9FAF8;
     max-width: 50%;
     padding-bottom: 10px;
+    overflow: hidden;
 }
 
 .herosecondarytext{
@@ -107,37 +115,110 @@ margin: 0;
     padding-top: 20px;
     padding-bottom: 15px;
 }
-/* .section2{
+.section2{
     display: flex;
-} */
+    justify-content: center;
+    height: 300px;
+}
 
 
 .doctor_images{
     display:flex;
    flex-direction: row;
-   justify-content: space-around;
+   /* justify-content: space-around; */
+}
 
+.doctor_container{
+    width: 109px;
+    padding-bottom: 30px;
+    margin: 30px;;
 }
 
 
 
-.section3 p{
+
+
+
+
+.section3 {
+    display: flex;
+    justify-content: center;
     color: #1F2937;
     background-color: #E5E7EB;
+    height: 300px;
 }
 
-.section4{
+
+
+.quote_container{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote_text{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote_author{
+    padding-top: 10px;
     
 }
 
-.donatebutton{
-    border:#F9FAF8
+
+
+
+
+
+
+
+
+
+.section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
+    /* padding-bottom: 100px; */
+    max-height: 300px;
+    
 }
 
-.footer{
-    color: #E5E7EB;
-    background-color: #1F2937;
+.section4_container{
+    display: flex;
+    padding:50px 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
 }
+
+.section4_top_text{
+    font-weight: 300;
+    color: #E5E7EB;
+    padding-bottom: 5px;
+}
+
+.section4_bottom_text{
+    font-size: 25px;
+    color: #E5E7EB;
+}
+
+.donatebutton{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
+    margin:20px;
+}
+
+
+
 
 
 button{
@@ -151,8 +232,15 @@ button{
 
 
 
-.quote_text{
-    font-size: 36px;
-    font-style: italic;
+
+
+
+
+.footer{
+    color: #E5E7EB;
+    padding: 10px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
